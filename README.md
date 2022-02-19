@@ -1,12 +1,12 @@
-[![MEANcore Logo](https://github.com/mrdav30/MEANcore/blob/master/modules/core/client/assets/images/logo.png) MEANcore](https://github.com/mrdav30/MEANcore) 
+[![snsjf_app Logo](https://github.com/mrdav30/snsjf_app/blob/master/modules/core/client/assets/images/logo.png) snsjf_app](https://github.com/mrdav30/snsjf_app) 
 
-[![Gitter](https://img.shields.io/gitter/room/mrdav30/MEANcore)](https://gitter.im/MEANcore/community)
-[![depencies status](https://img.shields.io/david/mrdav30/MEANcore)](https://david-dm.org/mrdav30/MEANcore)
-[![devDependencies Status](https://img.shields.io/david/dev/mrdav30/MEANcore)](https://david-dm.org/mrdav30/MEANcore?type=dev)
-[![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/mrdav30/MEANcore)](https://snyk.io/test/github/mrdav30/MEANcore?targetFile=package.json)
+[![Gitter](https://img.shields.io/gitter/room/mrdav30/snsjf_app)](https://gitter.im/snsjf_app/community)
+[![depencies status](https://img.shields.io/david/mrdav30/snsjf_app)](https://david-dm.org/mrdav30/snsjf_app)
+[![devDependencies Status](https://img.shields.io/david/dev/mrdav30/snsjf_app)](https://david-dm.org/mrdav30/snsjf_app?type=dev)
+[![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/mrdav30/snsjf_app)](https://snyk.io/test/github/mrdav30/snsjf_app?targetFile=package.json)
 # MEAN Stack Starter Kit
 
-MEANcore is an open-source boilerplate solution based on the MEAN stack and provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [Angular](https://angular.io/) based applications. This project includes modern tools and workflow based on [angular-cli](https://github.com/angular/angular-cli), best practices from the community, a scalable base template and a good learning base.
+snsjf_app is an open-source boilerplate solution based on the MEAN stack and provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [Angular](https://angular.io/) based applications. This project includes modern tools and workflow based on [angular-cli](https://github.com/angular/angular-cli), best practices from the community, a scalable base template and a good learning base.
 
 ### Benefits
 
@@ -25,15 +25,15 @@ Before you begin, it's recommend you read about the basic building blocks that a
 * Angular - Angular's [Official Website](https://angular.io/) is a great starting point.
 * Node.js - Start by going through [Node.js Official Website](http://nodejs.org/) and this [StackOverflow Thread](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js), which should get you going with the Node.js platform in no time.
 
-Checkout our blog [Techievor](https://techievor.com) built on meancore for a full rundown on how to setup the MEAN stack with MEANcore:
+Checkout our blog [Techievor](https://techievor.com) built on snsjf_app for a full rundown on how to setup the MEAN stack with snsjf_app:
 * [Windows](https://techievor.com/blog/post/2019/02/28/how-to-install-the-mean-stack-on-windows)
 * [CentOS](https://techievor.com/blog/post/2019/03/03/how-to-install-the-mean-stack-on-centos)
 
 ## Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
-* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js.  This version of MEANcore requires at minimum version >=14.0.0 of Node.js, v14.15.0 being the recommended.
-* MongoDB - [Download & Install MongoDB](http://www.mongodb.org/downloads), and make sure it's running on the default port (27017). This version of MEANcore requires at minimum version >=4.2, v4.2.15 being the recommended.
+* Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js.  This version of snsjf_app requires at minimum version >=14.0.0 of Node.js, v14.15.0 being the recommended.
+* MongoDB - [Download & Install MongoDB](http://www.mongodb.org/downloads), and make sure it's running on the default port (27017). This version of snsjf_app requires at minimum version >=4.2, v4.2.15 being the recommended.
 
 # Getting Started
 
@@ -52,7 +52,7 @@ GOOGLE_VIEW_ID=
 RECAPTCHA_SECRET_KEY=''
 RECAPTCHA_SITE_KEY=''
 
-MAILER_FROM='support@meancore.com'
+MAILER_FROM='support@snsjf_app.com'
 MAILER_SERVICE_PROVIDER=
 MAILER_HOST='smtp.ethereal.email'
 MAILER_PORT=587
@@ -93,7 +93,7 @@ Windows users can follow the instructions found [here](https://support.citrix.co
 
 # Running in Production
 
-To run MEANcore with production environment settings, you must set the following env variables:
+To run snsjf_app with production environment settings, you must set the following env variables:
 ```
 NODE_ENV='production'
 PRODUCTION=true
@@ -245,11 +245,11 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - [PngQuant](https://pngquant.org/)
 
 ## Contributing
-Pull requests are welcome from the community! Just be sure to read the [contributing](https://github.com/mrdav30/MEANcore/blob/master/CONTRIBUTING.MD) doc to get started.
+Pull requests are welcome from the community! Just be sure to read the [contributing](https://github.com/mrdav30/snsjf_app/blob/master/CONTRIBUTING.MD) doc to get started.
 
 ## Credits
 Special thanks to the [MEAN.JS](https://github.com/meanjs/mean) team for the hard work they put into their project.  I used their base for many projects over the years and learned a lot from what they accomplished.
 
 # License
 
-[License](https://github.com/mrdav30/MEANcore/blob/master/LICENSE.MD)
+[License](https://github.com/mrdav30/snsjf_app/blob/master/LICENSE.MD)

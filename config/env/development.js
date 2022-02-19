@@ -57,9 +57,9 @@ export const log = {
 export const ldap = {
   server: {
     url: process.env.LDAP_URL || 'ldap://localhost:389',
-    bindDn: process.env.LDAP_DN || 'CN=LDAP1,OU=Service Accounts,OU=MEANcore Users,DC=MEANcore,DC=local',
+    bindDn: process.env.LDAP_DN || 'CN=LDAP1,OU=Service Accounts,OU=snsjf_app Users,DC=snsjf_app,DC=local',
     bindCredentials: process.env.LDAP_SECRET || 'LDAP_SECRET',
-    searchBase: process.env.LDAP_SEARCH_BASE || 'DC=MEANcore,DC=local',
+    searchBase: process.env.LDAP_SEARCH_BASE || 'DC=snsjf_app,DC=local',
     searchFilter: process.env.LDAP_SEARCH_FILTER || '(&(objectCategory=person)(objectClass=user)(|(sAMAccountName={{username}})(mail={{username}})))' // login with username or email
   }
 };
@@ -75,7 +75,7 @@ export const github = {
 };
 export const mailer = {
   test: process.env.MAILER_TEST || true,
-  from: process.env.MAILER_FROM || 'test@meancore.com',
+  from: process.env.MAILER_FROM || 'test@snsjf_app.com',
   options: {
     // using ethereal email for development
     host: process.env.MAILER_HOST || "smtp.ethereal.email",

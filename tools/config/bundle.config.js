@@ -20,13 +20,13 @@ export class BundleConfig {
       import.meta.url));
     this.PROJECT_ROOT = join(this.__dirname, '../..');
 
-    this.APP_NAME = 'meancore';
+    this.APP_NAME = 'snsjf_app';
 
     /*
      * The path to the coverage output
      * NB: this must match what is configured in ./karma.conf.js
      */
-    this.COVERAGE_DIR = 'coverage/meancore';
+    this.COVERAGE_DIR = 'coverage/snsjf_app';
 
     /*
      *  All the modules for which build needs to run

@@ -105,7 +105,7 @@ testem.log
 ehthumbs.db
 Thumbs.db
 
-# MEANcore app and assets
+# snsjf_app app and assets
 # ======================
 /content
 config/env/local.js

@@ -13,7 +13,7 @@ import url from 'url';
 export default (config) => {
 
   const __dirname = dirname(url.fileURLToPath(import.meta.url));
-  const coveragePath = (join(__dirname, '../coverage/meancore'));
+  const coveragePath = (join(__dirname, '../coverage/snsjf_app'));
 
   config.set({
     // base path that will be used to resolve all patterns (eg. files, exclude)

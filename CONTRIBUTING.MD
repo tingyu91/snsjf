@@ -1,11 +1,11 @@
 # How to contribute
 
-Support and contributions from the open source community are essential for keeping MEANcore up to date and always improving! There are a few guidelines that contributors need to follow to keep the project consistent, as well as allow us to keep maintaining MEANcore in a reasonable amount of time.
+Support and contributions from the open source community are essential for keeping snsjf_app up to date and always improving! There are a few guidelines that contributors need to follow to keep the project consistent, as well as allow us to keep maintaining snsjf_app in a reasonable amount of time.
 
 ## Creating an Issue
 
 Before you create a new Issue:
-* Check the [Issues](https://github.com/mrdav30/meancore-starter-kit/issues) on Github to ensure one doesn't already exist.
+* Check the [Issues](https://github.com/mrdav30/snsjf_app-starter-kit/issues) on Github to ensure one doesn't already exist.
 * Clearly describe the issue, including the steps to reproduce the issue.
 * If it's a new feature, enhancement, or restructure, Explain your reasoning on why you think it should be added, as well as a particular use case.
 
@@ -65,7 +65,7 @@ Fixes #82
 ## Submitting the Pull Request
 
 * Push your changes to your topic branch on your fork of the repo.
-* Submit a pull request from your topic branch to the master branch on the MEANcore repository.
+* Submit a pull request from your topic branch to the master branch on the snsjf_app repository.
 * Be sure to tag any issues your pull request is taking care of / contributing to.
 	* By adding "Closes #xyz" to a commit message will auto close the issue once the pull request is merged in.
 * Small changes are usually accepted and merged in within a week (provided that 2 collaborators give the okay)

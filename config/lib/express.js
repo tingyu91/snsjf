@@ -236,7 +236,7 @@ const initSharedConfiguration = async (config) => {
     console.log(err);
   });
 
-  // read package.json for MEANCore project information
+  // read package.json for snsjf_app project information
   await fs.promises.readFile(resolve('./package.json')).then((jsonStr) => {
     const data = JSON.parse(jsonStr);
     config.version = data.version;

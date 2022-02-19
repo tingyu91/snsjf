@@ -2,7 +2,7 @@ import { join } from 'path';
 import SitemapGenerator from 'sitemap-generator';
 
 // create generator
-const generator = SitemapGenerator('https://meancore.com', {
+const generator = SitemapGenerator('https://snsjf_app.com', {
   stripQuerystring: false,
   ignoreHreflang: false,
   filepath: join(process.cwd(), 'sitemap.xml'),

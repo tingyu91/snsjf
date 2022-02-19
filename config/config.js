@@ -70,7 +70,7 @@ function validateSessionSecret(config, testing) {
     return true;
   }
 
-  if (config.sessionSecret === 'MEANcore' || config.sessionSecret === '') {
+  if (config.sessionSecret === 'snsjf_app' || config.sessionSecret === '') {
     if (!testing) {
       console.error('+ WARNING: It is strongly recommended that you change sessionSecret config while running in production!');
       console.error('  Please add `sessionSecret: process.env.SESSION_SECRET || \'super amazing secret\'` to ');
@@ -173,7 +173,7 @@ const retrieveModuleConfigs = async () => {
 
   await Promise.all(config.submodules.map(async (module) => {
     const originalConfig = objectHelpers.merge(null, {}, config);
-    let rootPath = process.env.npm_config_core_prj_root ? process.env.npm_config_core_prj_root : process.cwd();
+    let rootPath = process.cwd();
 
     const appConfigPath = url.pathToFileURL(join(rootPath, module.appDefaultConfig)).href;
     // eslint-disable-next-line node/no-unsupported-features/es-syntax

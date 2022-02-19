@@ -1,6 +1,6 @@
 {
-    "name": "meancore",
-    "short_name": "meancore",
+    "name": "snsjf_app",
+    "short_name": "snsjf_app",
     "start_url": ".",
     "display": "browser",
     "background_color": "#fff",

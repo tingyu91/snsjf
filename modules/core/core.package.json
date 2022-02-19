@@ -1,5 +1,5 @@
 {
-  "name": "meancore",
+  "name": "snsjf_app",
   "description": "Full-Stack JavaScript  with MongoDB, Express, AngularJS, and Node.js.",
   "version": "0.5.0-beta",
   "private": false,
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meancore/meancore.git"
+    "url": "https://github.com/tingyu91/snsjf.git"
   },
   "engines": {
     "node": ">=14.15.0",

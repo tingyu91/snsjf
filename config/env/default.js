@@ -1,5 +1,5 @@
 export const app = {
-  title: 'MEANcore - MeanStack Web Projects!',
+  title: 'snsjf_app - MeanStack Web Projects!',
   name: 'core',
   description: 'Applications running on mean stack',
   keywords: 'mongodb, express, angular2+, typescript, node.js, mongoose, passport',
@@ -14,7 +14,7 @@ export const app = {
   // domainPattern: 'localhost',
   domain: process.env.DOMAIN,
   defaultRoute: process.env.APP_DEFAULT_ROUTE || '',
-  metaTitleSuffix: process.env.META_TITLE_SUFFIX || ' | MEANcore'
+  metaTitleSuffix: process.env.META_TITLE_SUFFIX || ' | snsjf_app'
 };
 export const GOOGLE_CLIENT_EMAIL = process.env.GOOGLE_CLIENT_EMAIL || '';
 export const GOOGLE_ANALYTICS_ID = process.env.GOOGLE_ANALYTICS_ID || '';
@@ -45,9 +45,9 @@ export const sessionCookie = {
   // in HTTPS mode.
   secure: false
 };
-export const sessionSecret = process.env.SESSION_SECRET || 'MEANCORE';
-export const sessionKey = process.env.SESSION_KEY || 'meancore-key';
-export const sessionCollection = process.env.SESSION_COLLECTION || 'meancore-sessions';
+export const sessionSecret = process.env.SESSION_SECRET || 'snsjf_app';
+export const sessionKey = process.env.SESSION_KEY || 'snsjf_app-key';
+export const sessionCollection = process.env.SESSION_COLLECTION || 'snsjf_app-sessions';
 export const csp = {
   // Specify directives as normal.
   directives: {
@@ -83,7 +83,7 @@ export const csp = {
   upgradeInsecureRequests: true,
   workerSrc: false // This is not set.
 };
-export const illegalUsernames = ['meancore', 'administrator', 'password', 'admin', 'user',
+export const illegalUsernames = ['snsjf_app', 'administrator', 'password', 'admin', 'user',
   'unknown', 'anonymous', 'null', 'undefined', 'api'
 ];
 export const owaspConfig = {
