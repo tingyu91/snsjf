@@ -30,7 +30,7 @@ let config = {};
  * Validate NODE_ENV existence
  */
 function validateEnvironment() {
-  if (!fs.existsSync('./config/env/' + process.env.NODE_ENV + '.js')) {
+  if (!fs.existsSync('./config/env/'+process.env.NODE_ENV+'.js')) {
     if (process.env.NODE_ENV) {
       console.error('+ Error: No configuration file found for "' + process.env.NODE_ENV + '" environment using development instead');
     } else {

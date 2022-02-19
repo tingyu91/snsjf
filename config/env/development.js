@@ -6,7 +6,7 @@ export const app = {
 export const splunkUrl = 'http://10.16.7.195:8088/services/collector';
 export const splunkToken = 'replace-with-spunk';
 export const mongoDB = {
-  uri: process.env.MONGOHQ_URL || process.env.MONGODB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/meancore-dev',
+  uri: process.env.MONGOHQ_URL || process.env.MONGODB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') ,
   options: {
     useUnifiedTopology: true
   },
